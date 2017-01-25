@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="dropdown">
+    <button class="btn {{Settings.Style}} {{Settings.Size}} dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      {{Context.ModuleTitle}}
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      {{#each Items}}
+          <li{{Separator}}>
+            <span class="dd-icon">
+              <i class="{{../Settings.IconSize}} {{Icon}}"></i>
+            </span>
+            <a href="{{Link}}">{{Title}}</a>
+          </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

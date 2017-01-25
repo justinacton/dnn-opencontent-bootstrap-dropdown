@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "Style": {
+      "type": "string",
+      "title": "Dropdown Style",
+      "enum": [
+        "btn-default",
+        "btn-primary",
+        "btn-success",
+        "btn-info",
+        "btn-warning",
+        "btn-danger"
+      ],
+      "default": "Default",
+      "required": true
+    },
+    "Size": {
+      "type": "string",
+      "title": "Size",
+      "enum": [
+        "btn-xs",
+        "btn-sm",
+        "btn-md",
+        "btn-lg"
+      ],
+      "default": "Medium",
+      "required": true
+    },
+    "IconSize": {
+      "type": "string",
+      "title": "Icon Size",
+      "enum": [
+        "fa-1x",
+        "fa-2x",
+        "fa-3x",
+        "fa-4x"
+      ],
+      "default": "2",
+      "required": true
+    },
+    "IconColor": {
+      "type": "string",
+      "title": "Icon Color",
+      "required": true,
+      "default": "#000000"
+    }
+  }
+}

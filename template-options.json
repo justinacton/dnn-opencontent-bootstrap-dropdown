@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "Style": {
+      "type": "select",
+      "optionLabels": [
+        "Default",
+        "Primary",
+        "Success",
+        "Info",
+        "Warning",
+        "Danger"
+      ]
+    },
+    "Size": {
+      "type": "select",
+      "optionLabels": [
+        "Extra Small",
+        "Small",
+        "Medium",
+        "Large"
+      ]
+    },
+    "IconSize": {
+      "type": "radio",
+      "optionLabels": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "vertical": false
+    },
+    "IconColor": {
+      "type": "text",
+      "helper": "Enter HEX color code (i.e. #ffffff for white)"
+    }
+  }
+}

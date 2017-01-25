@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "ModuleTitle": {
+      "type": "string",
+      "title": "Module Title"
+    },
+    "Items": {
+      "type": "array",
+      "title": "Items",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "Icon": {
+            "type": "string",
+            "title": "Icon"
+          },
+          "Link": {
+            "type": "string",
+            "title": "Link"
+          },
+          "Separator": {
+            "type": "string",
+            "title": "Is Separator?",
+            "enum": [
+              " ",
+              " role=\"separator\" class=\"divider\""
+            ],
+            "default": "No",
+            "required": true
+          }
+        }
+      }
+    }
+  }
+}

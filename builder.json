@@ -1,0 +1,63 @@
+{
+  "formfields": [
+    {
+      "fieldname": "ModuleTitle",
+      "title": "Module Title",
+      "fieldtype": "text",
+      "advanced": false
+    },
+    {
+      "fieldname": "Items",
+      "title": "Items",
+      "fieldtype": "array",
+      "subfields": [
+        {
+          "fieldname": "Title",
+          "title": "Title",
+          "fieldtype": "text",
+          "advanced": false
+        },
+        {
+          "fieldname": "Icon",
+          "title": "Icon",
+          "fieldtype": "icon",
+          "iconoptions": {
+            "glyphicons": false,
+            "bootstrap": false,
+            "fontawesome": true
+          },
+          "advanced": false
+        },
+        {
+          "fieldname": "Link",
+          "title": "Link",
+          "fieldtype": "url",
+          "advanced": false
+        },
+        {
+          "fieldname": "Separator",
+          "title": "Is Separator?",
+          "fieldtype": "radio",
+          "vertical": false,
+          "fieldoptions": [
+            {
+              "value": " ",
+              "text": "No"
+            },
+            {
+              "value": " role=\"separator\" class=\"divider\"",
+              "text": "Yes"
+            }
+          ],
+          "advanced": true,
+          "required": true,
+          "hidden": false,
+          "default": "No",
+          "dependencies": []
+        }
+      ],
+      "advanced": false
+    }
+  ],
+  "formtype": "object"
+}

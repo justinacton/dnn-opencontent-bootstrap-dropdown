@@ -1,0 +1,110 @@
+{
+  "formfields": [
+    {
+      "fieldname": "Style",
+      "title": "Dropdown Style",
+      "fieldtype": "select",
+      "fieldoptions": [
+        {
+          "value": "btn-default",
+          "text": "Default"
+        },
+        {
+          "value": "btn-primary",
+          "text": "Primary"
+        },
+        {
+          "value": "btn-success",
+          "text": "Success"
+        },
+        {
+          "value": "btn-info",
+          "text": "Info"
+        },
+        {
+          "value": "btn-warning",
+          "text": "Warning"
+        },
+        {
+          "value": "btn-danger",
+          "text": "Danger"
+        }
+      ],
+      "advanced": true,
+      "required": true,
+      "hidden": false,
+      "default": "Default",
+      "dependencies": []
+    },
+    {
+      "fieldname": "Size",
+      "title": "Size",
+      "fieldtype": "select",
+      "fieldoptions": [
+        {
+          "value": "btn-xs",
+          "text": "Extra Small"
+        },
+        {
+          "value": "btn-sm",
+          "text": "Small"
+        },
+        {
+          "value": "btn-md",
+          "text": "Medium"
+        },
+        {
+          "value": "btn-lg",
+          "text": "Large"
+        }
+      ],
+      "advanced": true,
+      "required": true,
+      "hidden": false,
+      "default": "Medium",
+      "dependencies": []
+    },
+    {
+      "fieldname": "IconSize",
+      "title": "Icon Size",
+      "fieldtype": "radio",
+      "vertical": false,
+      "fieldoptions": [
+        {
+          "value": "fa-1x",
+          "text": "1"
+        },
+        {
+          "value": "fa-2x",
+          "text": "2"
+        },
+        {
+          "value": "fa-3x",
+          "text": "3"
+        },
+        {
+          "value": "fa-4x",
+          "text": "4"
+        }
+      ],
+      "advanced": true,
+      "required": true,
+      "hidden": false,
+      "default": "2",
+      "dependencies": []
+    },
+    {
+      "fieldname": "IconColor",
+      "title": "Icon Color",
+      "fieldtype": "text",
+      "advanced": true,
+      "required": true,
+      "hidden": false,
+      "default": "#000000",
+      "helper": "Enter HEX color code (i.e. #ffffff for white)",
+      "multilanguage": false,
+      "dependencies": []
+    }
+  ],
+  "formtype": "object"
+}

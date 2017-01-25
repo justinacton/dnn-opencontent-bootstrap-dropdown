@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "ModuleTitle": {
+      "type": "text"
+    },
+    "Items": {
+      "type": "array",
+      "items": {
+        "fields": {
+          "Title": {
+            "type": "text"
+          },
+          "Icon": {
+            "type": "icon",
+            "glyphicons": false,
+            "bootstrap": false,
+            "fontawesome": true
+          },
+          "Link": {
+            "type": "url"
+          },
+          "Separator": {
+            "type": "radio",
+            "optionLabels": [
+              "No",
+              "Yes"
+            ],
+            "vertical": false
+          }
+        }
+      }
+    }
+  }
+}
